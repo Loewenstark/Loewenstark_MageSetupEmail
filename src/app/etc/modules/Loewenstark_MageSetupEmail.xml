@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_MageSetupEmail>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <FireGento_MageSetup />
+            </depends>
+        </Loewenstark_MageSetupEmail>
+    </modules>
+</config>

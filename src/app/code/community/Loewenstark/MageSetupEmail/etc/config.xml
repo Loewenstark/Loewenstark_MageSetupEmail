@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Loewenstark_MageSetupEmail>
+            <version>2.1.1</version>
+        </Loewenstark_MageSetupEmail>
+    </modules>
+    <global>
+        <models>
+            <core>
+                <rewrite>
+                    <translate>Loewenstark_MageSetupEmail_Model_Core_Translate</translate>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+</config>

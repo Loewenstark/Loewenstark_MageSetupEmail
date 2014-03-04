@@ -1,0 +1,3 @@
+src/app/code/community/Loewenstark/MageSetupEmail                       app/code/community/Loewenstark/MageSetupEmail
+src/app/etc/modules/Loewenstark_MageSetupEmail.xml                      app/etc/modules/Loewenstark_MageSetupEmail.xml
+src/app/locale/de_DE/template/magesetupemail                            app/locale/de_DE/template/magesetupemail
