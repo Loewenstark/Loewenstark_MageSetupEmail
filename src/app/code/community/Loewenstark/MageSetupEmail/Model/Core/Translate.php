@@ -44,14 +44,6 @@ extends Mage_Core_Model_Translate
             $localeCode = $this->getLocale();
         }
         
-        // cache key
-        $key = 'email_'.md5($file).'_'.$type.'_'.$localeCode.'_'.$package.'_'.$theme.'_'.md5(BP).'_'.$store_id;
-        $cache = $this->_getTemplateCache($key);
-        if($cache)
-        {
-            return $this->_readTemplateFile($cache, false);
-        }
-        
         $filePath = Mage::getBaseDir('design')  . DS . 'frontend' . DS .
                 $package . DS . $theme . DS. 'locale'. DS . $localeCode . DS . $type . DS . $file;
         if($this->_FileExists($filePath))
