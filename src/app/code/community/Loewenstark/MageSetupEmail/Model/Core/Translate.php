@@ -61,6 +61,15 @@ extends Mage_Core_Model_Translate
         
         $filePath = Mage::getBaseDir('locale') . DS
                 . $localeCode
+                . DS . 'template' . DS . 'custom' . DS . $type . DS . $file;
+        
+        if($this->_FileExists($filePath))
+        {
+            return $this->_readTemplateFile($filePath, $key);
+        }
+        
+        $filePath = Mage::getBaseDir('locale') . DS
+                . $localeCode
                 . DS . 'template' . DS . self::LOCALE_FOLDER . DS . $type . DS . $file;
         
         if($this->_FileExists($filePath))
