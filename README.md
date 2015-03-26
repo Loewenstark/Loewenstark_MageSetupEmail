@@ -3,6 +3,9 @@ Loewenstark_MageSetupEmail
 required FireGento_MageSetup
 The Module provides the email templates for MageSetup.
 
+This Module is Outdated, you have to take a look at https://github.com/mageprofis/MageProfis_MageSetupEmail
+-----------
+
 Info
 -----------
 Do not import the Mail Templates with the MageSetup installer.
